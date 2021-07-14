@@ -386,7 +386,7 @@ RECORDS_REST_FACETS = {
                 }
             }
         ),
-        'post_filters': dict(
+        'filters': dict(
             experiment=terms_filter('experiment.keyword'),
             type=terms_filter('type.primary.keyword'),
             subtype=terms_filter('type.secondary.keyword'),
